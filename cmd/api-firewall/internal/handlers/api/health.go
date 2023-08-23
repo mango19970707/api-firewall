@@ -3,10 +3,10 @@ package api
 import (
 	"os"
 
+	"github.com/mango19970707/api-firewall/inner/platform/database"
+	"github.com/mango19970707/api-firewall/inner/platform/web"
 	"github.com/sirupsen/logrus"
 	"github.com/valyala/fasthttp"
-	"github.com/wallarm/api-firewall/inner/platform/database"
-	"github.com/wallarm/api-firewall/inner/platform/web"
 )
 
 type Health struct {

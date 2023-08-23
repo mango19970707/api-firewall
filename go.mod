@@ -1,4 +1,4 @@
-module github.com/wallarm/api-firewall
+module github.com/mango19970707/api-firewall
 
 go 1.20
 

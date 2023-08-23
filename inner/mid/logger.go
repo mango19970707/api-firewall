@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/mango19970707/api-firewall/inner/platform/web"
 	"github.com/sirupsen/logrus"
 	"github.com/valyala/fasthttp"
-	"github.com/wallarm/api-firewall/inner/platform/web"
 )
 
 // Logger writes some information about the request to the logs in the

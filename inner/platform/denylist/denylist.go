@@ -7,8 +7,8 @@ import (
 	"strings"
 
 	"github.com/dgraph-io/ristretto"
+	"github.com/mango19970707/api-firewall/inner/config"
 	"github.com/sirupsen/logrus"
-	"github.com/wallarm/api-firewall/inner/config"
 )
 
 const (

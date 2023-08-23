@@ -20,13 +20,13 @@ import (
 	"github.com/getkin/kin-openapi/openapi3"
 	"github.com/golang/mock/gomock"
 	"github.com/google/uuid"
+	handlersAPI "github.com/mango19970707/api-firewall/cmd/api-firewall/internal/handlers/api"
+	"github.com/mango19970707/api-firewall/cmd/api-firewall/internal/updater"
+	"github.com/mango19970707/api-firewall/inner/config"
+	"github.com/mango19970707/api-firewall/inner/platform/database"
+	"github.com/mango19970707/api-firewall/inner/platform/web"
 	"github.com/sirupsen/logrus"
 	"github.com/valyala/fasthttp"
-	handlersAPI "github.com/wallarm/api-firewall/cmd/api-firewall/internal/handlers/api"
-	"github.com/wallarm/api-firewall/cmd/api-firewall/internal/updater"
-	"github.com/wallarm/api-firewall/inner/config"
-	"github.com/wallarm/api-firewall/inner/platform/database"
-	"github.com/wallarm/api-firewall/inner/platform/web"
 )
 
 const apiModeOpenAPISpecAPIModeTest = `

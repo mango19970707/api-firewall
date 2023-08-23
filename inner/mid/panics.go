@@ -3,10 +3,10 @@ package mid
 import (
 	"runtime/debug"
 
+	"github.com/mango19970707/api-firewall/inner/platform/web"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 	"github.com/valyala/fasthttp"
-	"github.com/wallarm/api-firewall/inner/platform/web"
 )
 
 // Panics recovers from panics and converts the panic to an error so it is

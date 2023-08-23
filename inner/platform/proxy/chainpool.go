@@ -13,8 +13,8 @@ import (
 	"os"
 	"sync"
 
+	"github.com/mango19970707/api-firewall/inner/config"
 	"github.com/valyala/fasthttp"
-	"github.com/wallarm/api-firewall/inner/config"
 )
 
 var (

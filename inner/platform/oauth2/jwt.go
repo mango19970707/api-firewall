@@ -10,7 +10,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	"github.com/wallarm/api-firewall/inner/config"
+	"github.com/mango19970707/api-firewall/inner/config"
 )
 
 type JWT struct {

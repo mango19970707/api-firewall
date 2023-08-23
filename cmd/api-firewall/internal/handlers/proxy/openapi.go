@@ -9,17 +9,17 @@ import (
 
 	"github.com/getkin/kin-openapi/openapi3"
 	"github.com/getkin/kin-openapi/openapi3filter"
+	"github.com/mango19970707/api-firewall/inner/config"
+	"github.com/mango19970707/api-firewall/inner/platform/oauth2"
+	"github.com/mango19970707/api-firewall/inner/platform/proxy"
+	"github.com/mango19970707/api-firewall/inner/platform/router"
+	"github.com/mango19970707/api-firewall/inner/platform/validator"
+	"github.com/mango19970707/api-firewall/inner/platform/web"
 	"github.com/savsgio/gotils/strconv"
 	"github.com/sirupsen/logrus"
 	"github.com/valyala/fasthttp"
 	"github.com/valyala/fasthttp/fasthttpadaptor"
 	"github.com/valyala/fastjson"
-	"github.com/wallarm/api-firewall/inner/config"
-	"github.com/wallarm/api-firewall/inner/platform/oauth2"
-	"github.com/wallarm/api-firewall/inner/platform/proxy"
-	"github.com/wallarm/api-firewall/inner/platform/router"
-	"github.com/wallarm/api-firewall/inner/platform/validator"
-	"github.com/wallarm/api-firewall/inner/platform/web"
 )
 
 type openapiWaf struct {

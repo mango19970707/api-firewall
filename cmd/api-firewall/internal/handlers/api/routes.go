@@ -6,14 +6,14 @@ import (
 	"path"
 	"sync"
 
+	"github.com/mango19970707/api-firewall/inner/config"
+	"github.com/mango19970707/api-firewall/inner/mid"
+	"github.com/mango19970707/api-firewall/inner/platform/database"
+	"github.com/mango19970707/api-firewall/inner/platform/router"
+	"github.com/mango19970707/api-firewall/inner/platform/web"
 	"github.com/sirupsen/logrus"
 	"github.com/valyala/fasthttp"
 	"github.com/valyala/fastjson"
-	"github.com/wallarm/api-firewall/inner/config"
-	"github.com/wallarm/api-firewall/inner/mid"
-	"github.com/wallarm/api-firewall/inner/platform/database"
-	"github.com/wallarm/api-firewall/inner/platform/router"
-	"github.com/wallarm/api-firewall/inner/platform/web"
 )
 
 func Handlers(lock *sync.RWMutex, cfg *config.APIFWConfigurationAPIMode, shutdown chan os.Signal, logger *logrus.Logger, storedSpecs database.DBOpenAPILoader) fasthttp.RequestHandler {

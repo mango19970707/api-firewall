@@ -11,12 +11,12 @@ import (
 
 	"github.com/getkin/kin-openapi/openapi3"
 	"github.com/golang/mock/gomock"
+	proxyHandler "github.com/mango19970707/api-firewall/cmd/api-firewall/internal/handlers/proxy"
+	"github.com/mango19970707/api-firewall/inner/config"
+	"github.com/mango19970707/api-firewall/inner/platform/proxy"
+	"github.com/mango19970707/api-firewall/inner/platform/router"
 	"github.com/sirupsen/logrus"
 	"github.com/valyala/fasthttp"
-	proxyHandler "github.com/wallarm/api-firewall/cmd/api-firewall/internal/handlers/proxy"
-	"github.com/wallarm/api-firewall/inner/config"
-	"github.com/wallarm/api-firewall/inner/platform/proxy"
-	"github.com/wallarm/api-firewall/inner/platform/router"
 )
 
 const openAPIJSONSpecTest = `

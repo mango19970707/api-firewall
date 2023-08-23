@@ -9,10 +9,10 @@ import (
 	"syscall"
 
 	"github.com/fasthttp/router"
+	"github.com/mango19970707/api-firewall/inner/platform/database"
 	"github.com/savsgio/gotils/strconv"
 	"github.com/sirupsen/logrus"
 	"github.com/valyala/fasthttp"
-	"github.com/wallarm/api-firewall/inner/platform/database"
 )
 
 // Apps is the entrypoint into our application and what configures our context

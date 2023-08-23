@@ -5,10 +5,10 @@ import (
 
 	"golang.org/x/exp/slices"
 
+	"github.com/mango19970707/api-firewall/inner/config"
+	"github.com/mango19970707/api-firewall/inner/platform/web"
 	"github.com/sirupsen/logrus"
 	"github.com/valyala/fasthttp"
-	"github.com/wallarm/api-firewall/inner/config"
-	"github.com/wallarm/api-firewall/inner/platform/web"
 )
 
 // ShadowAPIMonitor check each request for the params, methods or paths that are not specified

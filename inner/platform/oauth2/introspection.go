@@ -8,10 +8,10 @@ import (
 	"strings"
 
 	"github.com/karlseguin/ccache/v2"
+	"github.com/mango19970707/api-firewall/inner/config"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 	"github.com/valyala/fasthttp"
-	"github.com/wallarm/api-firewall/inner/config"
 )
 
 type Introspection struct {

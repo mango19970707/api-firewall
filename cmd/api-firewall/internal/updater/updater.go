@@ -7,11 +7,11 @@ import (
 	"sync"
 	"time"
 
+	handlersAPI "github.com/mango19970707/api-firewall/cmd/api-firewall/internal/handlers/api"
+	"github.com/mango19970707/api-firewall/inner/config"
+	"github.com/mango19970707/api-firewall/inner/platform/database"
 	"github.com/sirupsen/logrus"
 	"github.com/valyala/fasthttp"
-	handlersAPI "github.com/wallarm/api-firewall/cmd/api-firewall/internal/handlers/api"
-	"github.com/wallarm/api-firewall/inner/config"
-	"github.com/wallarm/api-firewall/inner/platform/database"
 )
 
 type Updater interface {
