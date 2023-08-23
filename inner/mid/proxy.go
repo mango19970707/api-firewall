@@ -8,8 +8,8 @@ import (
 
 	"github.com/savsgio/gotils/strconv"
 	"github.com/valyala/fasthttp"
-	"github.com/wallarm/api-firewall/internal/config"
-	"github.com/wallarm/api-firewall/internal/platform/web"
+	"github.com/wallarm/api-firewall/inner/config"
+	"github.com/wallarm/api-firewall/inner/platform/web"
 )
 
 const apifwHeaderName = "APIFW-Request-Id"

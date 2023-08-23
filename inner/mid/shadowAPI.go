@@ -7,8 +7,8 @@ import (
 
 	"github.com/sirupsen/logrus"
 	"github.com/valyala/fasthttp"
-	"github.com/wallarm/api-firewall/internal/config"
-	"github.com/wallarm/api-firewall/internal/platform/web"
+	"github.com/wallarm/api-firewall/inner/config"
+	"github.com/wallarm/api-firewall/inner/platform/web"
 )
 
 // ShadowAPIMonitor check each request for the params, methods or paths that are not specified

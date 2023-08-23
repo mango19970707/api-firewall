@@ -6,7 +6,7 @@ import (
 	"github.com/gabriel-vasile/mimetype"
 	"github.com/sirupsen/logrus"
 	"github.com/valyala/fasthttp"
-	"github.com/wallarm/api-firewall/internal/platform/web"
+	"github.com/wallarm/api-firewall/inner/platform/web"
 )
 
 // MIMETypeIdentifier identifies the MIME type of the content in case of CT header is missing

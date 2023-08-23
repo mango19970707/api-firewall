@@ -9,11 +9,11 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/valyala/fasthttp"
 	"github.com/valyala/fastjson"
-	"github.com/wallarm/api-firewall/internal/config"
-	"github.com/wallarm/api-firewall/internal/mid"
-	"github.com/wallarm/api-firewall/internal/platform/database"
-	"github.com/wallarm/api-firewall/internal/platform/router"
-	"github.com/wallarm/api-firewall/internal/platform/web"
+	"github.com/wallarm/api-firewall/inner/config"
+	"github.com/wallarm/api-firewall/inner/mid"
+	"github.com/wallarm/api-firewall/inner/platform/database"
+	"github.com/wallarm/api-firewall/inner/platform/router"
+	"github.com/wallarm/api-firewall/inner/platform/web"
 )
 
 func Handlers(lock *sync.RWMutex, cfg *config.APIFWConfigurationAPIMode, shutdown chan os.Signal, logger *logrus.Logger, storedSpecs database.DBOpenAPILoader) fasthttp.RequestHandler {

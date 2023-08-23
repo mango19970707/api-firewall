@@ -8,7 +8,7 @@ import (
 
 	"github.com/dgraph-io/ristretto"
 	"github.com/sirupsen/logrus"
-	"github.com/wallarm/api-firewall/internal/config"
+	"github.com/wallarm/api-firewall/inner/config"
 )
 
 const (

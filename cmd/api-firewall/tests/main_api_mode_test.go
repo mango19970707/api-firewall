@@ -24,9 +24,9 @@ import (
 	"github.com/valyala/fasthttp"
 	handlersAPI "github.com/wallarm/api-firewall/cmd/api-firewall/internal/handlers/api"
 	"github.com/wallarm/api-firewall/cmd/api-firewall/internal/updater"
-	"github.com/wallarm/api-firewall/internal/config"
-	"github.com/wallarm/api-firewall/internal/platform/database"
-	"github.com/wallarm/api-firewall/internal/platform/web"
+	"github.com/wallarm/api-firewall/inner/config"
+	"github.com/wallarm/api-firewall/inner/platform/database"
+	"github.com/wallarm/api-firewall/inner/platform/web"
 )
 
 const apiModeOpenAPISpecAPIModeTest = `

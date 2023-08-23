@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"github.com/sirupsen/logrus"
 	"github.com/valyala/fasthttp"
-	"github.com/wallarm/api-firewall/internal/platform/web"
+	"github.com/wallarm/api-firewall/inner/platform/web"
 )
 
 // Errors handles errors coming out of the call chain. It detects normal

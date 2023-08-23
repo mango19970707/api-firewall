@@ -14,9 +14,9 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/valyala/fasthttp"
 	proxyHandler "github.com/wallarm/api-firewall/cmd/api-firewall/internal/handlers/proxy"
-	"github.com/wallarm/api-firewall/internal/config"
-	"github.com/wallarm/api-firewall/internal/platform/proxy"
-	"github.com/wallarm/api-firewall/internal/platform/router"
+	"github.com/wallarm/api-firewall/inner/config"
+	"github.com/wallarm/api-firewall/inner/platform/proxy"
+	"github.com/wallarm/api-firewall/inner/platform/router"
 )
 
 const openAPIJSONSpecTest = `

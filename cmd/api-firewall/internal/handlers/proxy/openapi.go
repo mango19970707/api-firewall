@@ -14,12 +14,12 @@ import (
 	"github.com/valyala/fasthttp"
 	"github.com/valyala/fasthttp/fasthttpadaptor"
 	"github.com/valyala/fastjson"
-	"github.com/wallarm/api-firewall/internal/config"
-	"github.com/wallarm/api-firewall/internal/platform/oauth2"
-	"github.com/wallarm/api-firewall/internal/platform/proxy"
-	"github.com/wallarm/api-firewall/internal/platform/router"
-	"github.com/wallarm/api-firewall/internal/platform/validator"
-	"github.com/wallarm/api-firewall/internal/platform/web"
+	"github.com/wallarm/api-firewall/inner/config"
+	"github.com/wallarm/api-firewall/inner/platform/oauth2"
+	"github.com/wallarm/api-firewall/inner/platform/proxy"
+	"github.com/wallarm/api-firewall/inner/platform/router"
+	"github.com/wallarm/api-firewall/inner/platform/validator"
+	"github.com/wallarm/api-firewall/inner/platform/web"
 )
 
 type openapiWaf struct {

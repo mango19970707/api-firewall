@@ -14,7 +14,7 @@ import (
 	"sync"
 
 	"github.com/valyala/fasthttp"
-	"github.com/wallarm/api-firewall/internal/config"
+	"github.com/wallarm/api-firewall/inner/config"
 )
 
 var (

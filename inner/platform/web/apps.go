@@ -12,7 +12,7 @@ import (
 	"github.com/savsgio/gotils/strconv"
 	"github.com/sirupsen/logrus"
 	"github.com/valyala/fasthttp"
-	"github.com/wallarm/api-firewall/internal/platform/database"
+	"github.com/wallarm/api-firewall/inner/platform/database"
 )
 
 // Apps is the entrypoint into our application and what configures our context
@@ -143,10 +143,10 @@ func (a *Apps) APIModeHandler(ctx *fasthttp.RequestCtx) {
 		return
 	}
 
-	// add internal header to the context
+	// add inner header to the context
 	ctx.SetUserValue(WallarmSchemaID, schemaID)
 
-	// delete internal header
+	// delete inner header
 	ctx.Request.Header.Del(XWallarmSchemaIDHeader)
 
 	a.lock.RLock()

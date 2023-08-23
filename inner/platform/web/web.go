@@ -10,7 +10,7 @@ import (
 	"github.com/fasthttp/router"
 	"github.com/sirupsen/logrus"
 	"github.com/valyala/fasthttp"
-	"github.com/wallarm/api-firewall/internal/config"
+	"github.com/wallarm/api-firewall/inner/config"
 )
 
 const (

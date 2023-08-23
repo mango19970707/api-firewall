@@ -10,8 +10,8 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/valyala/fasthttp"
 	handlersAPI "github.com/wallarm/api-firewall/cmd/api-firewall/internal/handlers/api"
-	"github.com/wallarm/api-firewall/internal/config"
-	"github.com/wallarm/api-firewall/internal/platform/database"
+	"github.com/wallarm/api-firewall/inner/config"
+	"github.com/wallarm/api-firewall/inner/platform/database"
 )
 
 type Updater interface {

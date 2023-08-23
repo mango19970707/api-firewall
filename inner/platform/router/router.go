@@ -7,7 +7,7 @@ import (
 
 	"github.com/getkin/kin-openapi/openapi3"
 	"github.com/getkin/kin-openapi/routers"
-	"github.com/wallarm/api-firewall/internal/platform/database"
+	"github.com/wallarm/api-firewall/inner/platform/database"
 )
 
 // Router helps link http.Request.s and an OpenAPIv3 spec

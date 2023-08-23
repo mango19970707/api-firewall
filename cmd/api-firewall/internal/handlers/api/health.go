@@ -5,8 +5,8 @@ import (
 
 	"github.com/sirupsen/logrus"
 	"github.com/valyala/fasthttp"
-	"github.com/wallarm/api-firewall/internal/platform/database"
-	"github.com/wallarm/api-firewall/internal/platform/web"
+	"github.com/wallarm/api-firewall/inner/platform/database"
+	"github.com/wallarm/api-firewall/inner/platform/web"
 )
 
 type Health struct {

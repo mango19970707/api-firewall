@@ -21,12 +21,12 @@ import (
 	handlersAPI "github.com/wallarm/api-firewall/cmd/api-firewall/internal/handlers/api"
 	handlersProxy "github.com/wallarm/api-firewall/cmd/api-firewall/internal/handlers/proxy"
 	"github.com/wallarm/api-firewall/cmd/api-firewall/internal/updater"
-	"github.com/wallarm/api-firewall/internal/config"
-	"github.com/wallarm/api-firewall/internal/platform/database"
-	"github.com/wallarm/api-firewall/internal/platform/denylist"
-	"github.com/wallarm/api-firewall/internal/platform/proxy"
-	"github.com/wallarm/api-firewall/internal/platform/router"
-	"github.com/wallarm/api-firewall/internal/platform/web"
+	"github.com/wallarm/api-firewall/inner/config"
+	"github.com/wallarm/api-firewall/inner/platform/database"
+	"github.com/wallarm/api-firewall/inner/platform/denylist"
+	"github.com/wallarm/api-firewall/inner/platform/proxy"
+	"github.com/wallarm/api-firewall/inner/platform/router"
+	"github.com/wallarm/api-firewall/inner/platform/web"
 )
 
 var build = "develop"

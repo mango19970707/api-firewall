@@ -6,7 +6,7 @@ import (
 
 	"github.com/sirupsen/logrus"
 	"github.com/valyala/fasthttp"
-	"github.com/wallarm/api-firewall/internal/platform/web"
+	"github.com/wallarm/api-firewall/inner/platform/web"
 )
 
 // Logger writes some information about the request to the logs in the
