@@ -3,7 +3,6 @@ module github.com/mango19970707/api-firewall
 go 1.20
 
 require (
-	github.com/andybalholm/brotli v1.0.5
 	github.com/ardanlabs/conf v1.5.0
 	github.com/clbanning/mxj/v2 v2.7.0
 	github.com/dgraph-io/ristretto v0.1.1
@@ -13,7 +12,6 @@ require (
 	github.com/go-playground/validator v9.31.0+incompatible
 	github.com/golang-jwt/jwt v3.2.2+incompatible
 	github.com/golang/mock v1.6.0
-	github.com/google/uuid v1.3.0
 	github.com/karlseguin/ccache/v2 v2.0.8
 	github.com/klauspost/compress v1.16.7
 	github.com/mattn/go-sqlite3 v1.14.17
@@ -27,6 +25,7 @@ require (
 )
 
 require (
+	github.com/andybalholm/brotli v1.0.5 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
